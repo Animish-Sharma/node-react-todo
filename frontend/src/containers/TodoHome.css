@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.todo-home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#e3e3e3;
+}
+
+.todo-header{
+    font-size: 2.4rem;
+    font-family:'Roboto',sans-serif;
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.todo-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 80px 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-card-header{
+    font-family: 'Noto Sans JP',sans-serif;
+    font-size: 1.4rem;
+}
+.todo-card-content{
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    font-size: 1.09rem;
+}
+.card-links{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#detail-link{
+    border: 1px solid #4dff4d;
+    background-color: #b8ff4d;
+    margin-right: 300px;
+    width: 7.5rem;
+    height: 35px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.1em;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.card-delete{
+    width: 130px;
+    background-color: #ff6680;
+    border: 3px solid #ff6680;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1.06rem;
+    font-family: 'Open Sans',sans-serif;
+}
+.card-delete:hover{
+    cursor: pointer;
+}
+.home-icon-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+
+#home-icon{
+    font-size: 2rem;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

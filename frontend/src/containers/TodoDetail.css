@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.todo-detail{
+    background-color:#e3e3e3;
+    display: flex;
+    flex-direction: column;
+    height: 699px;
+    align-items: center;
+}
+.todo-detail-header{
+    font-family:'Roboto',sans-serif;
+    font-size:3rem;
+}
+
+#detail-link-header{
+    color: #000;
+    text-decoration: none;
+}
+
+.todo-detail-card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px 10px 50px;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.detail-card-header{
+    font-family: 'Noto Sans JP',sans-serif;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+}
+.detail-card-content{
+    font-family: 'Rubik',sans-serif;
+    font-size: 1.5rem;
+}
+.detail-card-time{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 1.1rem;
+}
+.detail-card-links{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#update-link{
+    margin-right: 400px;
+    margin-top: 40px;
+    border: 2px solid #ffdb4d;
+    background-color: #ffdb4d;
+    width:180px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.detail-card-delete{
+    background-color: #ff4d4d;
+    border: 2px solid #ff4d4d;
+    height: 55px;
+    width:180px;
+    margin-top: 40px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+}
+.detail-card-delete:hover{
+    cursor: pointer;
+}

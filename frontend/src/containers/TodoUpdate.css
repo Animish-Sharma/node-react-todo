@@ -1,0 +1,67 @@
+.todo-update{
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 699px;
+}
+
+.update-title{
+    font-size: 3em;
+    font-family:'Roboto',sans-serif;
+    margin-bottom: 10px;
+}
+
+.update-card{
+    background-color:#fff;
+    width: 80%;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    padding-bottom:40px;
+}
+
+.update-card-title{
+    font-size: 2.2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#label-title,
+#label-description{
+    margin-left: 50px;
+    font-size: 1.5em;
+    font-family: 'Raleway',sans-serif;
+}
+
+#updateTitle,
+#updateDescription{
+    margin-left:100px;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    margin:10px 0 10px 100px;
+    font-family:'Rubik',sans-serif;
+    caret-color: #ff944d;
+}
+
+.card-update-button{
+    width: 30%;
+    margin-left: 370px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #99ff00;
+    border: 1px solid #99ff00;
+    border-radius: 8px;
+    font-size: 1.4em;
+    font-family: 'Noto Sans JP',sans-serif;
+    outline: none;
+    transition: all ease .3s;
+}
+.card-update-button:hover{
+    cursor: pointer;
+    background-color:#00ff00;
+    transition: all ease .5s;
+}
